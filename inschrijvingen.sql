@@ -1,4 +1,4 @@
 USE `lo8e_sql2`;
 UPDATE studenten
-SET geboortedatum = '1999-05-16'
-WHERE ov_nummer = 90000;
+SET actief = '0'
+WHERE inschrijvings_datum < 2017-01-01;
